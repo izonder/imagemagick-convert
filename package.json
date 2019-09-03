@@ -1,0 +1,33 @@
+{
+  "name": "imagemagick-convert",
+  "version": "0.0.0",
+  "description": "IONOS logo proxy",
+  "author": "iZonder <izonder@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izonder/imagemagick-convert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/izonder/imagemagick-convert/issues"
+  },
+  "homepage": "https://github.com/izonder/imagemagick-convert#readme",
+  "main": "./lib/index.js",
+  "scripts": {
+    "lint": "yarn && eslint .",
+    "test": "yarn && APP_ENV=test nyc mocha -r chai/register-expect"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "nanoid": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint-config-standard": "izonder/eslint-config-standard#v3.4.1",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "pre-commit": "^1.2.2"
+  }
+}

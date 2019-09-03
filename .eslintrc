@@ -1,0 +1,6 @@
+---
+root: true
+extends:
+- standard
+rules:
+  one-var: 0
