@@ -1,5 +1,12 @@
 .git/
+.idea/
+.nyc_output/
 docs/
+test/
 .DS_Store
+.editorconfig
+.eslintignore
+.eslintrc
+.gitattributes
 npm-debug.log
 yarn-error.log
