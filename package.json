@@ -1,13 +1,20 @@
 {
   "name": "imagemagick-convert",
   "version": "1.0.1",
-  "description": "IONOS logo proxy",
+  "description": "ImageMagick binding over convert functionality",
   "author": "iZonder <izonder@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/izonder/imagemagick-convert.git"
   },
+  "keywords": [
+    "imagemagick",
+    "promise",
+    "async",
+    "convert",
+    "resize"
+  ],
   "bugs": {
     "url": "https://github.com/izonder/imagemagick-convert/issues"
   },
@@ -20,9 +27,6 @@
   "pre-commit": [
     "lint"
   ],
-  "dependencies": {
-    "nanoid": "^2.1.0"
-  },
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint-config-standard": "izonder/eslint-config-standard#v3.4.1",
